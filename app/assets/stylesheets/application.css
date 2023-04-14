@@ -21,7 +21,6 @@
   box-sizing: border-box;
   }
 
-/*ページ共通*/
 body {
   margin: 33px;
   line-height: 18px;
@@ -32,11 +31,20 @@ body {
   }
 
 
-/*topページ*/
+
 
 h1 {
   height: 18px;
   }
+  
+h2 {
+  margin-top: 20px
+  }
+
+h4 {
+  margin-top: 20px
+  }
+
 
 p {
   margin: 33px;
@@ -44,36 +52,33 @@ p {
   line-height: 18px;
   }
 
-
-/*indexページ*/
   
 table {
   width: 659px;
   height:  352px;
-
+  margin-top: 20px
   }
 
 thead {
   width:655px;
   height: 24px;
-  display: table-header-group;
-   vertical-align: middle;
   }
 
 
-tbody {
-   display: table-row-group;
-   vertical-align: middle;
-   border-color: inherit;
-  }
-  
 
 tr,td {
   padding: 2px;
-  border-color: transparent;
   }
 
 form {
-    display: block;
-    margin-top: 0em;
+  padding-top: 20px
   }
+  
+  
+  
+div {
+  font-size: 13px;
+  color: green;
+  margin-bottom: 15px
+  }
+  
