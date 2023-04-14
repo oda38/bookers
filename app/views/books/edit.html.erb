@@ -4,7 +4,7 @@
 <body>
 
   
- <ol>   
+   
  <% if @book.errors.any? %>
    <%= @book.errors.count %>errors prohibited this book from being saved:
    <ul>
@@ -13,7 +13,7 @@
     <% end %>
    </ul>
  <% end %>
- </ol>
+
 
 
  <%= form_with model: @book do |f| %>
